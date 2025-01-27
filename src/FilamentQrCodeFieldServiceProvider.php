@@ -1,6 +1,6 @@
 <?php
 
-namespace Fadlee\FilamentQrcodeField;
+namespace Fadlee\FilamentQrCodeField;
 
 use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
@@ -9,7 +9,7 @@ use Filament\View\PanelsRenderHook;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Spatie\LaravelPackageTools\Package;
 
-class FilamentQrcodeFieldServiceProvider extends PackageServiceProvider
+class FilamentQrCodeFieldServiceProvider extends PackageServiceProvider
 {
     public static string $name = 'filament-qrcode-field';
 

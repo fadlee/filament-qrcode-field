@@ -34,10 +34,10 @@ The package will automatically register its service provider.
 
 ## Usage
 
-1. Import the QrcodeInput component in your Filament resource or form:
+1. Import the QrCodeInput component in your Filament resource or form:
 
 ```php
-use Fadlee\FilamentQrcodeField\Forms\Components\QrcodeInput;
+use Fadlee\FilamentQrCodeField\Forms\Components\QrCodeInput;
 ```
 
 2. Add the field to your form:
@@ -47,7 +47,7 @@ public static function form(Form $form): Form
 {
     return $form
         ->schema([
-            QrcodeInput::make('qrcode')
+            QrCodeInput::make('qrcode')
                 ->label('QR Code')
                 ->placeholder('Click to scan QR code...'),
             // ... other fields

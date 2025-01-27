@@ -10,7 +10,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Fadlee\\FilamentQrcodeField\\": "src/"
+            "Fadlee\\FilamentQrCodeField\\": "src/"
         }
     },
     "authors": [
@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Fadlee\\FilamentQrcodeField\\FilamentQrcodeFieldServiceProvider"
+                "Fadlee\\FilamentQrCodeField\\FilamentQrCodeFieldServiceProvider"
             ]
         }
     }
