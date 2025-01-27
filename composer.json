@@ -1,0 +1,38 @@
+{
+    "name": "fadlee/filament-qrcode-field",
+    "keywords": [
+        "filament",
+        "filament-plugin",
+        "form-field"
+    ],
+    "description": "QR code scanner for Filament",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fadlee\\FilamentQrcodeField\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fadlee",
+            "email": "fad.lee@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.1",
+        "filament/filament": "^3.0",
+        "filament/forms": "^3.0",
+        "filament/tables": "^3.0",
+        "spatie/laravel-package-tools": "^1.14.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fadlee\\FilamentQrcodeField\\FilamentQrcodeFieldServiceProvider"
+            ]
+        }
+    }
+}
